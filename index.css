@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(219, 224, 223);
+}
+.menu{
+    padding: 10px;
+}
+.banner h1{
+    position:absolute;
+    top: 190px;
+    left: 170px;
+    color: white;
+    
+}
+.banner h3{
+    position: absolute;
+    top: 260px;
+    left: 170px;
+    color: white;
+}
+.banner h1{
+    font-size: 50px;
+}
+.text{
+    padding-left: 30px;
+}
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+
+}
+
+.end{
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    background-color: white;
+    background-position-x: left;
+}
+.end div{
+    padding: 10px;
+}
+.end a{
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menu div{
+    display: inline;
+    padding: 10px;
+    
+}
+.row img{
+    margin: 10px;
+}
