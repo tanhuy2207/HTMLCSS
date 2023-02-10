@@ -1,9 +1,6 @@
 /* for mobile */
 
-  
-
   .banner img {
-    position: absolute;
     display: none;
   }
 
@@ -36,6 +33,7 @@
 
   .row img {
     width: 100%;
+    padding: 20px;
   }
 
   .row h3 {
@@ -56,7 +54,6 @@
 /*for tablet*/
 @media screen and (min-width: 768px) {
   .banner img {
-    position: absolute;
     display: none;
   }
 
@@ -107,9 +104,11 @@
 }
 
 /* for desktop */
-@media only screen and (min-width: 992px) {
-  body {}
-
+@media only screen and (min-width: 992px)  {
+  .banner img{
+    display: block;
+    width: 100%;
+  }
   .banner h1 {
     position: absolute;
     top: 190px;
@@ -117,7 +116,7 @@
     color: white;
 
   }
-
+  
   .banner h3 {
     position: absolute;
     top: 260px;
