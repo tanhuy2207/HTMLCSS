@@ -1,102 +1,132 @@
 /* for mobile */
-@media screen and (max-width: 600px) {
-    .banner img{position: absolute;
-      display: none;}
-    .banner h1{
-      font-size: 50px;
-      padding: 20px;
-      padding-bottom: 5px;
-    }
-    .banner h3{
-      font-size: 14px;
-      padding: 20px
-    }
-    .banner{
-      background-color: rgb(252, 250, 248);
-    }
-    .text h3{
-      font-size: 50px;
-      padding: 20px;
-      padding-top: 80px;
-    }
-    .text p{
-      font-size: 14px;
-      padding: 20px;
-    }
-    .row img{
-      width: 100%;
-    }
-    .row h3{
-      font-size: 50px;
-      padding: 20px;
-    }
-    .row p{
-      font-size: 14px;
-      padding: 20px;
-    }
-    .row a{
-      padding: 20px;
-    }
-    }
+
+  
+
+  .banner img {
+    position: absolute;
+    display: none;
+  }
+
+  .banner h1 {
+    font-size: 50px;
+    padding: 20px;
+    padding-bottom: 5px;
+
+  }
+
+  .banner h3 {
+    font-size: 14px;
+    padding: 20px
+  }
+
+  .banner {
+    background-color: rgb(252, 250, 248);
+  }
+
+  .text h3 {
+    font-size: 50px;
+    padding: 20px;
+    padding-top: 80px;
+  }
+
+  .text p {
+    font-size: 14px;
+    padding: 20px;
+  }
+
+  .row img {
+    width: 100%;
+  }
+
+  .row h3 {
+    font-size: 50px;
+    padding: 20px;
+  }
+
+  .row p {
+    font-size: 14px;
+    padding: 20px;
+  }
+
+  .row a {
+    padding: 20px;
+  }
+
 
 /*for tablet*/
-@media screen and (max-width: 992px) {
-  .banner img{position: absolute;
-      display: none;}
-      .banner h1{
-          font-size: 40px;
-          padding: 20px;
-          padding-bottom: 5px;
-        }
-        .banner h3{
-          font-size: 14px;
-          padding: 20px
-        }
-        .banner{
-          background-color: rgb(252, 250, 248);
-        }
-        .text h3{
-          font-size: 40px;
-          padding: 20px;
-          padding-top: 80px;
-        }
-        .text p{
-          font-size: 14px;
-          padding: 20px;
-        }
-        .row img{
-          padding: 8px;
-          width: 100%;
-        }
-        .row h3{
-          font-size: 40px;
-          padding: 20px;
-        }
-        .row p{
-          font-size: 14px;
-          padding: 20px;
-        }
-        .row a{
-          padding: 20px;
-        }
+@media screen and (min-width: 768px) {
+  .banner img {
+    position: absolute;
+    display: none;
+  }
+
+  .banner h1 {
+    font-size: 40px;
+    padding: 20px;
+    padding-bottom: 5px;
+  }
+
+  .banner h3 {
+    font-size: 14px;
+    padding: 20px
+  }
+
+  .banner {
+    background-color: rgb(252, 250, 248);
+  }
+
+  .text h3 {
+    font-size: 40px;
+    padding: 20px;
+    padding-top: 80px;
+  }
+
+  .text p {
+    font-size: 14px;
+    padding: 20px;
+  }
+
+  .row img {
+    padding: 8px;
+    width: 100%;
+  }
+
+  .row h3 {
+    font-size: 40px;
+    padding: 20px;
+  }
+
+  .row p {
+    font-size: 14px;
+    padding: 20px;
+  }
+
+  .row a {
+    padding: 20px;
+  }
 }
+
 /* for desktop */
-body{
-  
-}
-.banner h1{
-  position:absolute;
-  top: 190px;
-  left: 170px;
-  color: white;
-  
-}
-.banner h3{
-  position: absolute;
-  top: 260px;
-  left: 170px;
-  color: white;
-}
-.row img{
-  padding: 10PX;
+@media only screen and (min-width: 992px) {
+  body {}
+
+  .banner h1 {
+    position: absolute;
+    top: 190px;
+    left: 170px;
+    color: white;
+
+  }
+
+  .banner h3 {
+    position: absolute;
+    top: 260px;
+    left: 170px;
+    color: white;
+  }
+
+  .row img {
+    padding-bottom: 10px;
+    width: 100%;
+  }
 }
